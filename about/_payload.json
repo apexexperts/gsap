@@ -24,15 +24,15 @@
         "title": 6,
         "subtitle": 7
     },
-    "Kindness is a\u2028better way\nto build.",
-    "\u003Cp>Digital products that solve real problems with care, thoughtfulness, and just the right amount of magic.\u003C/p>",
+    "Technology built for\u2028real business impact.",
+    "\u003Cp>We design and deliver digital solutions that solve real business challenges through Oracle APEX, AI, and custom development.\u003C/p>",
     {
         "title": 9,
         "text": 10,
         "items": 11
     },
     "What does APEX Experts do?",
-    "\u003Cp data-start=\"551\" data-end=\"753\">APEX Experts designs and builds digital products for healthcare and wellness brands. We focus on tools and experiences that are clear, usable, and built with care for the people they&rsquo;re meant to help.\u003C/p>\n\u003Cp data-start=\"551\" data-end=\"753\">We work side by side with our partners from kickoff to launch, shaping both the product \u003Cem data-start=\"843\" data-end=\"848\">and\u003C/em> the process with intention. We believe how something is made shows up in how it feels to use&mdash;so we bring kindness, curiosity, and a little creative boldness into every step.\u003C/p>",
+    "\u003Cp>APEX Experts builds enterprise applications, AI-driven solutions, and tailored digital products for organizations that need technology to solve real business challenges. Through Oracle APEX, custom development, and product-focused engineering, we create secure, scalable, and high-impact solutions designed for long-term value.\u003C/p>\n\u003Cp>We partner closely with clients from idea to launch, helping shape the product, the user experience, and the technical foundation behind it. We believe the quality of a digital solution is reflected not only in its technology, but in the results it delivers. That is why we bring precision, innovation, and business-focused thinking into every step of the process.\u003C/p>",
     [
         12,
         19,
@@ -48,11 +48,11 @@
     "Jz_Kl32VTgaZxE3zg63Zyg",
     "OUR TEAM",
     "The Team Experience",
-    "\u003Cp>We build together, not just alongside each other. Respect, curiosity, and kindness drive the way we work.\u003C/p>",
+    "\u003Cp>Our team brings together deep Oracle APEX expertise, AI innovation, and product thinking to deliver powerful solutions for real business needs.\u003C/p>",
     {
         "url": 18
     },
-    "https://www.datocms-assets.com/163973/1755536301-people.svg",
+    "/about-our-team.png",
     {
         "id": 20,
         "eyebrow": 21,
@@ -67,7 +67,7 @@
     {
         "url": 25
     },
-    "https://www.datocms-assets.com/163973/1755536310-clients.svg",
+    "/about-our-clients.png",
     {
         "id": 27,
         "eyebrow": 28,
@@ -82,7 +82,7 @@
     {
         "url": 32
     },
-    "https://www.datocms-assets.com/163973/1755536786-products.svg",
+    "/about-our-products.png",
     {
         "title": 34,
         "text": 35,
@@ -151,7 +151,7 @@
     {
         "url": 61
     },
-    "https://www.datocms-assets.com/163973/1755534170-craftmanship.svg",
+    "/about-digital-craftsmanship.png",
     [
         63,
         66,
