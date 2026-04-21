@@ -24,8 +24,8 @@
         "subtitle": 7,
         "link": 8
     },
-    "Smart Digital Solutions, Built for Real Business",
-    "\u003Cp>\u003Cspan>\u003C/span>\u003Cspan>\u003C/span>\u003Cspan>We help organizations build powerful applications and AI-driven experiences through Oracle APEX, custom development, and modern product thinking.\u003C/span>\u003C/p>",
+    "Smart AI Solutions, Powered by Oracle APEX",
+    "\u003Cp>\u003Cspan>\u003C/span>\u003Cspan>\u003C/span>\u003Cspan>APEX Experts helps organizations build powerful applications and AI-driven experiences through Oracle APEX mastery and modern product thinking.\u003C/span>\u003C/p>",
     {
         "id": 9,
         "label": 10,
@@ -48,8 +48,8 @@
         "text": 18,
         "link": 19
     },
-    "What do we build and how does kindness shape it?",
-    "\u003Cp data-start=\"1323\" data-end=\"1533\">\u003Cspan>\u003C/span>\u003Cspan>\u003C/span>\u003Cspan>Built Kindly helps teams rethink digital experiences across websites, platforms, search, and AI. Kind Design is the framework that guides how we make those experiences clearer, simpler, and more human. \u003Cstrong>It&rsquo;s a lens that helps organizations step back, see their digital ecosystem differently, and build better products moving forward. \u003C/strong>\u003C/span>\u003C/p>",
+    "What do we build and how do we create value?",
+    "\u003Cp>APEX Experts helps organizations build modern business applications, AI-powered solutions, and scalable digital products through Oracle APEX, custom development, and deep technical expertise. We focus on creating solutions that are practical, secure, and aligned with real business needs. Our approach helps companies simplify complexity, improve operations, and build technology that supports long-term growth.\u003C/p>",
     {
         "id": 20,
         "label": 21,
@@ -57,7 +57,7 @@
         "external": 15
     },
     "EqWoCC6mRzCEVHtdqb075g",
-    "Explore the Anatomy of Kind Design",
+    "Explore What We Do ?",
     {
         "id": 23,
         "type": 24,
@@ -71,8 +71,8 @@
         "text": 28,
         "case": 29
     },
-    "Where innovation meets impact.",
-    "\u003Cp>From data-rich platforms to behavior-shifting experiences, our work is designed to move people&mdash;and make a difference. \u003Cstrong>Because digital shouldn't just work. It should resonate.\u003C/strong>\u003C/p>",
+    "The AI-Powered Analytics Plugin for Oracle APEX.",
+    "\u003Cp>\u003Cstrong>Asklyze\u003C/strong> enables teams to turn natural language into reports, charts, and dashboards directly inside Oracle APEX, making analytics faster, smarter, and fully secure.\u003C/p>",
     {
         "id": 30,
         "slug": 31,
@@ -110,9 +110,9 @@
     0.5,
     1338,
     1003,
-    "https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&fit=max&h=600&q=85&w=600",
-    "https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&fit=max&h=1000&q=85&w=1000",
-    "https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&fit=max&h=1500&q=85&w=1500",
+    "/home.mp4",
+    "/home.mp4",
+    "/home.mp4",
     {
         "srcSet": 46,
         "webpSrcSet": 15,
@@ -126,9 +126,9 @@
         "base64": 50,
         "bgColor": 51
     },
-    "https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&dpr=0.25&fit=max&h=2440&q=85&w=2440 334w,https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&dpr=0.5&fit=max&h=2440&q=85&w=2440 669w,https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&dpr=0.75&fit=max&h=2440&q=85&w=2440 1003w,https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&fit=max&h=2440&q=85&w=2440 1338w",
+    "/home.mp4",
     "(max-width: 1338px) 100vw, 1338px",
-    "https://www.datocms-assets.com/163973/1756780022-va_dc.png?auto=format&fit=max&h=2440&q=85&w=2440",
+    "/home.mp4",
     1.3339980059820538,
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAIAAADOjonJAAACMElEQVR42m2UCXLbMAxFsZCi7GRy8l6jR+jlzAX9H5TtZFoE1nDT0wcBpPz687u4H/W4He2El+Ow4mK6IsaKuWQuDTEzdy/8g5so1rC55pp44mw5agWo1QpWS69WCkAzwhZY4kGQKkGkFHPMdAEUwGzQKh/nPUHH2U6Kqu3wBC2RlyLBfCsiTP2laI4X6OvjM0Ht1trtOBFd83qBkoLvJgivX6QECcJ5gogqX/cX6LxT1EmQmgVAkYoIUmFoMMQFC4IWKG/QZ7sjcIDuJ0C3DaqiJiIUhSdug4rMVLDq8jSfqw7edoKQJoBOZK20G3T5cfL7aZYeBpDoa/VtCBH5HWJLFzKtJQxzV0NE9d/z/0O8bQkKRZF+FgtmI33GN+VPi4xxE+3n+pA1AhfF0EbvQA614XV4H1pKtffRmR5yRWdPdUmfY/Qxxgb1xyN8oUyqPbqXjhxLq7jXLWRkEUD0FaPSwcmU9dk3aBLUeyAg671w3LM/cGM7w7tLIhOnCYJhZ14gKOpjZw0PZb9A39vZE8Lj6IEEXbHBUAio6fzEnE8nCPjLZQ+gLzgILkAJp9dtZ2Ty/TBqAy8Araz3H27G8sAdscPQ9xYeLM8Mjbspi4RFcXBP9v63UNAV9OJW2VBEgjXRcMp7n6lAs7qN901NaFXHFo6BtgrfRAeVy4HhYPea+k40tRNEChqN/bJBVKziimHBhmYfblPP77Ld2RvIXqYed7QxulsfvyCBCc+eXn8BrSWYoRGZ3VcAAAAASUVORK5CYII=",
     "#26507d",
@@ -139,8 +139,8 @@
         "description": 56,
         "image": 57
     },
-    "Built Kindly | Kind. By Design.",
-    "Built Kindly fuses kind design with thoughtful tech to help\u2028care-focused brands create digital products and experiences that feel\u2028as unique as they do human.",
+    "APEX Experts | Oracle APEX Solutions.",
+    "We combine deep Oracle APEX expertise with AI and modern engineering to help businesses build secure applications, smart products, and digital solutions that solve real problems.",
     {
         "url": 58
     },
