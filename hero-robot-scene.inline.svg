@@ -1,0 +1,216 @@
+<svg
+  class="hero-robot-svg"
+  viewBox="0 0 900 760"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <filter id="rb-shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#5A416F" flood-opacity="0.12" />
+    </filter>
+    <filter id="rb-soft-glow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" />
+    </filter>
+    <linearGradient id="rb-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDF9ED" />
+      <stop offset="1" stop-color="#F4DDB0" />
+    </linearGradient>
+    <linearGradient id="rb-screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#98D0AB" />
+      <stop offset="1" stop-color="#79B388" />
+    </linearGradient>
+  </defs>
+
+  <g class="rb-glow" opacity="0.24" filter="url(#rb-soft-glow)">
+    <ellipse cx="462" cy="378" rx="190" ry="128" fill="#D7F1E0" />
+  </g>
+
+  <g class="rb-arc">
+    <path
+      class="rb-arc-path"
+      d="M110 190C224 116 377 118 508 171C573 198 644 238 649 292C651 314 641 328 630 340"
+      stroke="#7AB38A"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      class="rb-arc-tail"
+      d="M699 189C742 165 780 157 819 168"
+      stroke="#7AB38A"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <g class="rb-sparkles">
+    <circle class="rb-spark" cx="145" cy="290" r="4" fill="#7AB38A" />
+    <circle class="rb-spark" cx="230" cy="236" r="3" fill="#5A416F" />
+    <circle class="rb-spark" cx="344" cy="244" r="3" fill="#5A416F" />
+    <circle class="rb-spark" cx="382" cy="266" r="4" fill="#7AB38A" />
+    <circle class="rb-spark" cx="736" cy="274" r="4" fill="#7AB38A" />
+    <circle class="rb-spark" cx="812" cy="272" r="3" fill="#5A416F" />
+    <circle class="rb-spark" cx="776" cy="360" r="3" fill="#7AB38A" />
+    <path class="rb-spark" d="M296 274H304" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    <path class="rb-spark" d="M746 236H754" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g class="rb-monitor" filter="url(#rb-shadow)">
+    <g class="rb-monitor-shell">
+      <rect x="334" y="246" width="234" height="196" rx="28" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M350 281H551" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M378 262H526" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <circle cx="507" cy="273" r="4" fill="#F47036" />
+      <circle cx="519" cy="273" r="4" fill="#F4DDB0" stroke="#5A416F" stroke-width="1.5" />
+      <circle cx="531" cy="273" r="4" fill="#7AB38A" />
+      <rect class="rb-monitor-screen" x="376" y="300" width="150" height="90" rx="18" fill="url(#rb-screen)" />
+      <path d="M401 328H466" stroke="#FDF9ED" stroke-width="4" stroke-linecap="round" />
+      <path d="M410 344H447" stroke="#FDF9ED" stroke-width="4" stroke-linecap="round" />
+      <path d="M403 360H438" stroke="#FDF9ED" stroke-width="4" stroke-linecap="round" />
+      <path d="M454 344H495" stroke="#FDF9ED" stroke-width="4" stroke-linecap="round" />
+      <path d="M449 360H503" stroke="#FDF9ED" stroke-width="4" stroke-linecap="round" />
+      <path d="M390 331L385 350" stroke="#F47036" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 10" />
+      <g class="rb-monitor-face">
+        <rect class="rb-monitor-eye rb-monitor-eye--left" x="458" y="334" width="12" height="12" rx="6" fill="#5A416F" />
+        <rect class="rb-monitor-eye rb-monitor-eye--right" x="485" y="334" width="12" height="12" rx="6" fill="#5A416F" />
+        <path class="rb-monitor-mouth" d="M458 388C469 402 488 403 500 388" stroke="#F47036" stroke-width="7" stroke-linecap="round" />
+      </g>
+      <path d="M413 442H491L505 486H399L413 442Z" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <rect x="433" y="485" width="38" height="68" rx="18" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M451 553V607" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M405 607H496" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <g class="rb-icons">
+    <g class="rb-icon rb-icon--code" filter="url(#rb-shadow)">
+      <rect x="300" y="345" width="56" height="56" rx="16" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M321 373L311 382L321 391" stroke="#5A416F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M336 373L346 382L336 391" stroke="#5A416F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M328 394L333 370" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    </g>
+    <g class="rb-icon rb-icon--heart" filter="url(#rb-shadow)">
+      <rect x="578" y="334" width="58" height="58" rx="16" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M607 370C614 360 628 364 628 377C628 389 610 399 607 401C604 399 586 389 586 377C586 364 600 360 607 370Z" fill="#7AB38A" />
+    </g>
+  </g>
+
+  <g class="rb-boy">
+    <g class="rb-boy-body">
+      <path
+        d="M46 594C58 536 102 458 178 442C215 434 246 442 273 459L286 628H38C42 616 44 605 46 594Z"
+        fill="url(#rb-metal)"
+        stroke="#5A416F"
+        stroke-width="4"
+        stroke-linejoin="round"
+      />
+      <path
+        d="M125 479L162 515L177 620H116L101 558"
+        fill="#FDF9ED"
+        stroke="#5A416F"
+        stroke-width="4"
+        stroke-linejoin="round"
+      />
+      <path d="M163 515L190 487" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M181 526L199 507" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M183 446H230L270 477L234 502L183 474Z" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+    </g>
+
+    <g class="rb-boy-arm-back" transform="translate(147 522) rotate(10)">
+      <circle cx="0" cy="0" r="16" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <rect x="-22" y="-10" width="46" height="124" rx="22" fill="url(#rb-metal)" stroke="#5A416F" stroke-width="4" />
+      <circle cx="0" cy="104" r="14" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <g transform="translate(0 100) rotate(22)">
+        <rect x="-18" y="-8" width="38" height="92" rx="19" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      </g>
+    </g>
+
+    <g class="rb-boy-head">
+      <rect x="161" y="224" width="130" height="118" rx="34" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M182 223C190 195 230 181 265 196C291 208 301 236 291 256C282 274 260 284 232 277C208 271 191 255 182 223Z" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+      <path d="M226 221V198" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <circle cx="226" cy="190" r="8" fill="#7AB38A" stroke="#5A416F" stroke-width="4" />
+      <circle cx="206" cy="284" r="6" fill="#5A416F" />
+      <circle cx="246" cy="284" r="6" fill="#5A416F" />
+      <path d="M209 312C221 324 241 324 252 311" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M289 284C307 287 309 313 292 319" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M183 281C168 286 166 309 179 317" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M187 252C173 250 165 266 171 278" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <g class="rb-boy-arm-front" transform="translate(240 520) rotate(-6)">
+      <circle cx="0" cy="0" r="16" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <rect x="-22" y="-8" width="48" height="132" rx="23" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <circle cx="0" cy="110" r="14" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <g class="rb-boy-forearm" transform="translate(2 105) rotate(17)">
+        <rect x="-18" y="-8" width="40" height="90" rx="18" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      </g>
+    </g>
+
+    <g class="rb-boy-hand-front" transform="translate(303 635) rotate(8)">
+      <path d="M0 0C20 -8 41 2 51 15C46 29 29 39 8 37C-7 31 -10 13 0 0Z" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+      <path d="M17 7L28 28" stroke="#5A416F" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M30 6L38 29" stroke="#5A416F" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M42 11L46 29" stroke="#5A416F" stroke-width="3.5" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <g class="rb-keyboard">
+    <rect x="306" y="630" width="152" height="24" rx="12" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+    <path d="M330 642H434" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+  </g>
+
+  <g class="rb-girl">
+    <g class="rb-girl-arm rb-girl-arm--left" transform="translate(590 389) rotate(-24)">
+      <circle cx="0" cy="0" r="16" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <rect x="-22" y="-10" width="46" height="130" rx="23" fill="url(#rb-metal)" stroke="#5A416F" stroke-width="4" />
+      <circle cx="0" cy="112" r="14" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <g class="rb-girl-forearm rb-girl-forearm--left" transform="translate(0 109) rotate(-20)">
+        <rect x="-18" y="-8" width="40" height="96" rx="19" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+        <path d="M-8 86C-14 99 -4 112 14 112C24 100 21 87 10 80" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g class="rb-girl-arm rb-girl-arm--right" transform="translate(726 381) rotate(18)">
+      <circle cx="0" cy="0" r="16" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <rect x="-22" y="-10" width="46" height="136" rx="23" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" />
+      <circle cx="0" cy="118" r="14" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <g class="rb-girl-forearm rb-girl-forearm--right" transform="translate(0 115) rotate(14)">
+        <rect x="-18" y="-8" width="40" height="102" rx="19" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+        <path d="M-8 90C-15 103 -5 116 14 116C26 102 23 86 10 80" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g class="rb-girl-body">
+      <path
+        d="M562 637C572 582 585 515 612 470C640 423 682 417 720 442C756 466 779 521 794 587L817 664H538L562 637Z"
+        fill="url(#rb-metal)"
+        stroke="#5A416F"
+        stroke-width="4"
+        stroke-linejoin="round"
+      />
+      <path d="M604 443C614 426 641 417 665 422C692 428 712 447 721 470" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M628 566C645 554 672 553 690 567" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    </g>
+
+    <g class="rb-girl-head">
+      <rect x="610" y="232" width="136" height="122" rx="36" fill="#FDF9ED" stroke="#5A416F" stroke-width="4" />
+      <path d="M632 229C651 199 703 194 734 223C759 245 766 284 746 303C727 321 691 320 664 301C642 285 629 260 632 229Z" fill="#F4DDB0" stroke="#5A416F" stroke-width="4" stroke-linejoin="round" />
+      <path d="M676 225V202" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <circle cx="676" cy="194" r="8" fill="#7AB38A" stroke="#5A416F" stroke-width="4" />
+      <circle cx="652" cy="286" r="6" fill="#5A416F" />
+      <circle cx="694" cy="286" r="6" fill="#5A416F" />
+      <path d="M654 312C668 324 687 324 699 312" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M610 286C592 288 589 314 607 321" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M744 285C760 288 764 311 750 321" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+      <path d="M706 238C716 225 734 230 737 245" stroke="#5A416F" stroke-width="4" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <g class="rb-cables">
+    <path class="rb-cable rb-cable--left" d="M354 351H336C321 351 306 359 296 371L287 383" stroke="#7AB38A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="rb-cable rb-cable--right" d="M548 351H570C585 351 600 358 610 370L618 380" stroke="#7AB38A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path class="rb-cable rb-cable--down" d="M450 442V518" stroke="#7AB38A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

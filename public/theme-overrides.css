@@ -1,0 +1,234 @@
+:root {
+  --color-primary: #1f2a6b;
+  --color-primary-hover: #19235a;
+  --color-primary-active: #141c4a;
+  --color-primary-dark: #0f172a;
+  --color-primary-light: #e8ebf8;
+  --color-primary-border: #4f46e5;
+  --color-primary-bg-light: #eef2ff;
+  --color-primary-border-light: #e6e9f5;
+  --color-primary-variant: #8a96c2;
+  --color-primary-300: #5c6aa5;
+  --color-bg: #fff;
+  --color-bg-card: #e8ebfa;
+  --color-bg-subtle: #c5cae9;
+  --color-bg-accent: #f7f8fc;
+  --color-text-heading: #1a1a1a;
+  --color-text-body: #5b647e;
+  --color-text-secondary: #111;
+  --theme-background: var(--color-bg);
+  --theme-color: var(--color-text-body);
+}
+
+body {
+  background-color: var(--theme-background);
+  color: var(--theme-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-text-heading);
+}
+
+::placeholder {
+  color: var(--color-text-body);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+em,
+i,
+.txt.--green strong {
+  color: var(--color-primary-300) !important;
+}
+
+.divide-green> :not([hidden])~ :not([hidden]) {
+  border-color: var(--color-primary-300) !important;
+}
+
+.bg-purple {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-white-cloud {
+  background-color: var(--color-bg-accent) !important;
+}
+
+.bg-white-cloud\/80 {
+  background-color: #f7f8fccc !important;
+}
+
+.bg-white-skin {
+  background-color: var(--color-bg-card) !important;
+}
+
+.bg-yellow {
+  background-color: var(--color-bg-subtle) !important;
+}
+
+.text-purple,
+.s\:text-purple {
+  color: var(--color-primary) !important;
+}
+
+.text-orange {
+  color: var(--color-primary-border) !important;
+}
+
+.text-black {
+  color: var(--color-text-secondary) !important;
+}
+
+.border-purple {
+  border-color: var(--color-primary-border) !important;
+}
+
+.border-black {
+  border-color: var(--color-text-secondary) !important;
+}
+
+.fill-purple {
+  fill: var(--color-primary) !important;
+}
+
+.fill-orange {
+  fill: var(--color-primary-border) !important;
+}
+
+.fill-black {
+  fill: var(--color-text-secondary) !important;
+}
+
+.fill-white-cloud {
+  fill: var(--color-bg-accent) !important;
+}
+
+.btn__bg {
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary-border) !important;
+}
+
+.btn__content {
+  color: var(--color-bg) !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover .btn__bg {
+    background-color: var(--color-primary-light) !important;
+    border-color: var(--color-primary-border) !important;
+  }
+
+  .btn:hover .btn__content {
+    color: var(--color-primary) !important;
+  }
+}
+
+[fill="#5A416F"],
+[fill="#5a416f"] {
+  fill: var(--color-primary) !important;
+}
+
+[stroke="#5A416F"],
+[stroke="#5a416f"] {
+  stroke: var(--color-primary) !important;
+}
+
+[fill="#7AB38A"],
+[fill="#7ab38a"] {
+  fill: var(--color-primary-300) !important;
+}
+
+[stroke="#7AB38A"],
+[stroke="#7ab38a"] {
+  stroke: var(--color-primary-300) !important;
+}
+
+[fill="#F47036"],
+[fill="#f47036"] {
+  fill: var(--color-primary-border) !important;
+}
+
+[stroke="#F47036"],
+[stroke="#f47036"] {
+  stroke: var(--color-primary-border) !important;
+}
+
+[fill="#F4DDB0"],
+[fill="#f4ddb0"] {
+  fill: var(--color-bg-subtle) !important;
+}
+
+[fill="#FDF0E0"],
+[fill="#fdf0e0"] {
+  fill: var(--color-bg-card) !important;
+}
+
+[fill="#FCFAF5"],
+[fill="#fcfaf5"],
+[fill="#FDF9ED"],
+[fill="#fdf9ed"] {
+  fill: var(--color-bg) !important;
+}
+
+[fill="#FDFAE7"],
+[fill="#fdfae7"] {
+  fill: var(--color-bg-accent) !important;
+}
+
+[stroke="#FCFAF5"],
+[stroke="#fcfaf5"],
+[stroke="#FDF9ED"],
+[stroke="#fdf9ed"] {
+  stroke: var(--color-bg-accent) !important;
+}
+
+[fill="#272727"] {
+  fill: var(--color-text-secondary) !important;
+}
+
+[stroke="#272727"] {
+  stroke: var(--color-text-secondary) !important;
+}
+
+[stop-color="#5A416F"],
+[stop-color="#5a416f"] {
+  stop-color: var(--color-primary) !important;
+}
+
+[stop-color="#7AB38A"],
+[stop-color="#7ab38a"] {
+  stop-color: var(--color-primary-300) !important;
+}
+
+[stop-color="#F4DDB0"],
+[stop-color="#f4ddb0"] {
+  stop-color: var(--color-bg-subtle) !important;
+}
+
+[flood-color="#5A416F"],
+[flood-color="#5a416f"] {
+  flood-color: var(--color-primary) !important;
+}
+
+:root {
+  --hero-rive-filter: sepia(0.12) hue-rotate(155deg) saturate(0.95) brightness(0.97) contrast(1.03);
+}
+
+/* Global Illustration Sync: Target all Rive canvases (Computer, Crane, Pottery, Anatomy, etc.) */
+canvas,
+.sf canvas,
+.js-anatomy-steps canvas {
+  filter: var(--hero-rive-filter) !important;
+}
+
+/* Surgery Fix: Protect branding SVGs from global filters */
+.sf svg {
+  filter: none !important;
+}

@@ -1,0 +1,171 @@
+<svg
+  class="hero-ae-svg"
+  viewBox="0 0 2544 1664"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <filter id="ae-cutout" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feColorMatrix
+        in="SourceGraphic"
+        type="matrix"
+        values="
+          1 0 0 0 0
+          0 1 0 0 0
+          0 0 1 0 0
+          -0.95 -0.95 -0.95 0 2.6
+        "
+        result="alpha-key"
+      />
+      <feComponentTransfer in="alpha-key" result="alpha-shaped">
+        <feFuncA type="gamma" amplitude="1.25" exponent="1.22" offset="-0.08" />
+      </feComponentTransfer>
+      <feComposite in="SourceGraphic" in2="alpha-shaped" operator="in" />
+    </filter>
+    <filter id="ae-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="blur" />
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="1 0 0 0 0 0 1 0 0 0.05 0 0 1 0 0.12 0 0 0 0.55 0"
+        result="glow"
+      />
+      <feBlend in="SourceGraphic" in2="glow" mode="screen" />
+    </filter>
+    <linearGradient id="ae-circuit-gradient" x1="780" y1="832" x2="1774" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#82C8DA" stop-opacity="0.18" />
+      <stop offset="0.5" stop-color="#59AFCF" stop-opacity="0.82" />
+      <stop offset="1" stop-color="#3887C9" stop-opacity="0.24" />
+    </linearGradient>
+    <clipPath id="clip-ae-title">
+      <rect x="520" y="28" width="1498" height="164" rx="24" />
+    </clipPath>
+    <clipPath id="clip-ae-brain">
+      <ellipse cx="1270" cy="430" rx="312" ry="214" />
+      <rect x="1124" y="360" width="320" height="394" rx="32" />
+    </clipPath>
+    <clipPath id="clip-ae-chip">
+      <rect x="942" y="338" width="162" height="150" rx="28" />
+    </clipPath>
+    <clipPath id="clip-ae-brain-label">
+      <rect x="1548" y="272" width="436" height="292" rx="24" />
+    </clipPath>
+    <clipPath id="clip-ae-icon-tl">
+      <circle cx="1116" cy="316" r="84" />
+    </clipPath>
+    <clipPath id="clip-ae-icon-tr">
+      <circle cx="1498" cy="316" r="84" />
+    </clipPath>
+    <clipPath id="clip-ae-icon-bl">
+      <circle cx="1116" cy="494" r="84" />
+    </clipPath>
+    <clipPath id="clip-ae-icon-br">
+      <circle cx="1496" cy="492" r="84" />
+    </clipPath>
+    <clipPath id="clip-ae-web">
+      <rect x="126" y="548" width="782" height="676" rx="72" />
+    </clipPath>
+    <clipPath id="clip-ae-mobile">
+      <rect x="1842" y="600" width="556" height="676" rx="72" />
+    </clipPath>
+    <clipPath id="clip-ae-oracle">
+      <rect x="1002" y="1070" width="664" height="560" rx="72" />
+    </clipPath>
+    <clipPath id="clip-ae-circuits-left">
+      <rect x="792" y="700" width="332" height="236" rx="28" />
+    </clipPath>
+    <clipPath id="clip-ae-circuits-right">
+      <rect x="1450" y="694" width="530" height="240" rx="28" />
+    </clipPath>
+    <clipPath id="clip-ae-circuits-vertical">
+      <rect x="1122" y="470" width="332" height="736" rx="24" />
+    </clipPath>
+    <clipPath id="clip-ae-logo">
+      <rect x="896" y="632" width="784" height="530" rx="28" />
+    </clipPath>
+  </defs>
+
+  <g class="ae-layer ae-layer--scene-cutout" filter="url(#ae-cutout)">
+    <g class="ae-layer ae-layer--title" clip-path="url(#clip-ae-title)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain" clip-path="url(#clip-ae-brain)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--chip" clip-path="url(#clip-ae-chip)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain-label" clip-path="url(#clip-ae-brain-label)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain-icon ae-layer--brain-icon-tl" clip-path="url(#clip-ae-icon-tl)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain-icon ae-layer--brain-icon-tr" clip-path="url(#clip-ae-icon-tr)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain-icon ae-layer--brain-icon-bl" clip-path="url(#clip-ae-icon-bl)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--brain-icon ae-layer--brain-icon-br" clip-path="url(#clip-ae-icon-br)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--web" clip-path="url(#clip-ae-web)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--mobile" clip-path="url(#clip-ae-mobile)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--oracle" clip-path="url(#clip-ae-oracle)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--circuits-left" clip-path="url(#clip-ae-circuits-left)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--circuits-right" clip-path="url(#clip-ae-circuits-right)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--circuits-vertical" clip-path="url(#clip-ae-circuits-vertical)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+
+    <g class="ae-layer ae-layer--logo" clip-path="url(#clip-ae-logo)">
+      <image href="/hero-ae-ecosystem.png" width="2544" height="1664" preserveAspectRatio="none" />
+    </g>
+  </g>
+
+  <g class="ae-layer ae-layer--energy" filter="url(#ae-glow)">
+    <path class="ae-energy-path ae-energy-path--left-1" d="M806 790C900 790 916 850 1010 850H1110" stroke="url(#ae-circuit-gradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.58" />
+    <path class="ae-energy-path ae-energy-path--left-2" d="M818 838H986C1020 838 1032 798 1088 798H1126" stroke="url(#ae-circuit-gradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.52" />
+    <path class="ae-energy-path ae-energy-path--left-3" d="M812 886H988C1024 886 1040 864 1110 864H1150" stroke="url(#ae-circuit-gradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.46" />
+    <path class="ae-energy-path ae-energy-path--right-1" d="M1438 772H1750C1786 772 1800 816 1858 816H1948" stroke="url(#ae-circuit-gradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.58" />
+    <path class="ae-energy-path ae-energy-path--right-2" d="M1492 834H1764C1796 834 1812 890 1860 890H1952" stroke="url(#ae-circuit-gradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.54" />
+    <path class="ae-energy-path ae-energy-path--right-3" d="M1516 890H1772C1804 890 1814 850 1866 850H1980" stroke="url(#ae-circuit-gradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity="0.48" />
+    <path class="ae-energy-path ae-energy-path--vertical-1" d="M1238 542V1078" stroke="url(#ae-circuit-gradient)" stroke-width="8" stroke-linecap="round" opacity="0.42" />
+    <path class="ae-energy-path ae-energy-path--vertical-2" d="M1292 520V1120" stroke="url(#ae-circuit-gradient)" stroke-width="8" stroke-linecap="round" opacity="0.5" />
+    <path class="ae-energy-path ae-energy-path--vertical-3" d="M1348 542V1078" stroke="url(#ae-circuit-gradient)" stroke-width="8" stroke-linecap="round" opacity="0.42" />
+
+    <circle class="ae-signal-dot ae-signal-dot--1" cx="900" cy="790" r="9" fill="#6DC6D8" />
+    <circle class="ae-signal-dot ae-signal-dot--2" cx="1002" cy="850" r="10" fill="#5DAAD1" />
+    <circle class="ae-signal-dot ae-signal-dot--3" cx="1796" cy="772" r="9" fill="#6DC6D8" />
+    <circle class="ae-signal-dot ae-signal-dot--4" cx="1858" cy="888" r="10" fill="#4F94CF" />
+    <circle class="ae-signal-dot ae-signal-dot--5" cx="1238" cy="640" r="10" fill="#7BCEDB" />
+    <circle class="ae-signal-dot ae-signal-dot--6" cx="1292" cy="706" r="10" fill="#67B9D4" />
+    <circle class="ae-signal-dot ae-signal-dot--7" cx="1348" cy="774" r="9" fill="#4D90CD" />
+    <circle class="ae-signal-dot ae-signal-dot--8" cx="1238" cy="1010" r="10" fill="#7BCEDB" />
+    <circle class="ae-signal-dot ae-signal-dot--9" cx="1348" cy="1024" r="10" fill="#4D90CD" />
+  </g>
+</svg>
